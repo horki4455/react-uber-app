@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##アプリ概要
 
-Things you may want to cover:
+## アプリのイメージ
+UberEatsと食べログを足したようなアプリケーション
 
-* Ruby version
+### 機能一覧
 
-* System dependencies
 
-* Configuration
+### 使用技術一覧
+フロントエンド
+React
 
-* Database creation
+バックエンド
+FW：Rails
+DB:MySQL
+docker
 
-* Database initialization
+インフラ
+検討中
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
