@@ -1,24 +1,61 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリ概要  
+#### フロント
+```
+cd frontend
+```
 
-Things you may want to cover:
+```
+npm start
+```
 
-* Ruby version
+#### バックエンド
+```
+cd uber-break
+```
 
-* System dependencies
+```
+rails s
+```
 
-* Configuration
+## アプリのイメージ
+UberEatsと食べログを足したようなアプリケーション  
 
-* Database creation
 
-* Database initialization
+## 作ったきっかけ
+Reactわからんけどすごい楽しいので無限に、好きなように機能を追加していくアプリケーションを作りたかったため。
 
-* How to run the test suite
+### 機能一覧
+初期マスターのpush時点で、適当に作ったもの  
+・カート機能  
+・ログイン機能   
+・仮カート機能  
+・注文ステップ機能   
+・同じ店の注文を合算する機能  
+・A店舗操作中に割り込みB店舗時の処理  
 
-* Services (job queues, cache servers, search engines, etc.)
+##### 作成中  
+・店舗側の管理機能(admin)  
+・店舗の作成機能  
+・店舗の売り上げ確認機能  
+・客からの店舗評価機能  
+・マイページ機能  
+・注文履歴機能  
 
-* Deployment instructions
 
-* ...
+### 使用技術一覧
+フロントエンド
+React
+
+バックエンド
+FW：Rails
+DB:MySQL
+docker
+
+インフラ
+検討中
+
+
+### 一言
+マークダウン勉強しろ自分
