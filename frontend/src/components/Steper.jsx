@@ -1,4 +1,5 @@
-import React, { useState, router } from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Stepper,
   Step,
@@ -9,6 +10,7 @@ import {
 
 export default function StepperProgress() {
   const [activeStep, setActiveStep] = useState(0);
+
   const steps = ["準備中", "調理中", "配送中", "完了"];
   return (
     <div>
@@ -28,6 +30,8 @@ export default function StepperProgress() {
             <Button
               variant="contained"
               color="secondary"
+              component={Link}
+              to="/restaurants"
               onClick={() => {
                 setActiveStep(0);
               }}
