@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 // components
 import { OrderDetailItem } from "../components/OrderDetailItem";
 import { OrderButton } from "../components/Buttons/OrderButton";
+import { AfterOrderProgress } from "../components/AfterOrder";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 // apis
@@ -123,7 +124,7 @@ export const Orders = () => {
               </OrderButton>
             )}
             {state.fetchState === REQUEST_STATE.OK &&
-              !state.lineFoodsSummary && <p>注文予定の商品はありません。</p>}
+              !state.lineFoodsSummary && <AfterOrderProgress />}
           </div>
         </div>
       </OrderListWrapper>
