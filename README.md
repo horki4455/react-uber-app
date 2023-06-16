@@ -51,6 +51,3 @@ ruby on Rails
 
 ##### DB
 MySQL
-
-### 一言
-マークダウン勉強しろ自分
