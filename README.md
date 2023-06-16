@@ -20,7 +20,7 @@ rails s
 ```
 
 ## アプリのイメージ
-UberEatsと食べログを足したようなアプリケーション  
+サイト　M & A のサイトへ移行中
 
 
 ### 機能一覧
@@ -42,17 +42,15 @@ UberEatsと食べログを足したようなアプリケーション
 
 
 ### 使用技術一覧
-フロントエンド
+###### フロントエンド
 React
+Tailwind CSS(style in css から移行中)
 
-バックエンド
-FW：Rails
-DB:MySQL
-docker
+##### バックエンド
+ruby on Rails
 
-インフラ
-検討中
-
+##### DB
+MySQL
 
 ### 一言
 マークダウン勉強しろ自分
