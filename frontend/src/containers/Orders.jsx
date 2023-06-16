@@ -85,6 +85,7 @@ export const Orders = () => {
     <Fragment>
       <HeaderWrapper>
         <Link to="/restaurants">
+        <div>リンクー</div>
           <MainLogoImage src={MainLogo} alt="main logo" />
         </Link>
       </HeaderWrapper>

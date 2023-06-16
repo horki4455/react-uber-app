@@ -24,6 +24,7 @@ import MainLogo from "../images/logo.png";
 import MainCoverImage from "../images/main-cover-image.png";
 
 import RestaurantImage from "../images/restaurant-image.jpg";
+import { HeaderContainer } from '../components/HeaderMenu';
 
 const HeaderWrapper = styled.div`
   display: flex;
@@ -89,6 +90,8 @@ export const Restaurants = () => {
       <HeaderWrapper>
         <MainLogoImage src={MainLogo} alt="main logo" />
       </HeaderWrapper>
+      <HeaderContainer>ああああ</HeaderContainer>
+      
       <MainCoverImageWrapper>
         <MainCover src={MainCoverImage} alt="main cover" />
       </MainCoverImageWrapper>
